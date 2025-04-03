@@ -15,7 +15,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 memo = {}
-def layup_seq(n):
+def layup_seq(n) -> int:
     if n in memo:
         return memo[n]
     else:
