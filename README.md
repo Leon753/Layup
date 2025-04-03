@@ -50,13 +50,17 @@ python3 layup_sequence.py
 ```
 
 ### Runtime/Time Complexity/Optimzations
-Runtime: As shown in the graph we can see visually that the linear regression line fits
-well. Unfortunately the R^2 value is quiet low but that is probably due to
-operations being so fast, that noise is a larger factor.
 
-Time Complexity: O(n) -> The algorithm performs a single loop that iterates n times 
-and does constant work (2 constant calls (n-1) and (n-2) inside the loop, 
-its time complexity is O(n)
+- **Runtime:**  
+  - As shown in the graph we can see visually that the linear regression line fits
+    well. Unfortunately the R^2 value is quiet low but that is probably due to
+    operations being so fast, that noise is a larger factor.
 
-Optimizations Made: I used memoization to store already seen values, making repetitive
-calls constant time.
+- **Time Complexity:**  
+  - O(n) -> The algorithm performs a single loop that iterates n times 
+    and does constant work (2 constant calls (n-1) and (n-2) inside the loop, 
+    its time complexity is O(n)
+
+- **Optimizaitons Made:**  
+  - I used memoization to store already seen values, making repetitive
+    calls constant time.
