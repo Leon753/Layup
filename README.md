@@ -20,7 +20,7 @@ git clone https://github.com/Leon753/Layup.git
 cd Layup
 ```
 
-Airplane Simulator
+### Airplane Simulator
 ```bash
 python3 simulator.py
 ```
@@ -44,7 +44,7 @@ python3 simulator.py
 - **Drawing the Trajectory:**  
   - Draws a line from the previous position to the new position **only if** no wrap-around occurs, preventing an unwanted line across the screen.
 
-Layup Sequence
+### Layup Sequence
 ```bash
 python3 layup_sequence.py
 ```
