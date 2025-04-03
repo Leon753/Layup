@@ -24,6 +24,8 @@ cd Layup
 ```bash
 python3 simulator.py
 ```
+A simulation should appear.
+
 ### Explanation of Trajectory Calculations
 
 - **Displacement Calculation:**  
@@ -48,6 +50,7 @@ python3 simulator.py
 ```bash
 python3 layup_sequence.py
 ```
+A graph should appear. Values printed in terminal
 
 ### Runtime/Time Complexity/Optimzations
 
